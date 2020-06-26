@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"go-fundamentos-aplicacao-web/models"
+	"go-commerce/models"
 )
 
 var temp = template.Must(template.ParseGlob("templates/*.html"))
